@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: black;
+}
+
+.post {
+    margin: 50px 300px 50px 300px;
+    background-color: rgba(69, 68, 68, 0.07) 
+    
+}
+
+/* HEADER */
+
+.post-header {
+    width: 420px; 
+    height: 70px;
+    margin-left: 250px;
+    display: flex;
+    flex-basis: auto; 
+    background-color: white;
+}
+.header-icon {
+    
+    align-self: center;
+    padding: 5px;
+
+}
+.header-title {
+    align-self: center;
+    margin-right: auto; 
+
+}
+.header-dots {
+    align-self: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* IMAGE */
+
+.post-image { 
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    margin-left: 250px;
+}
+img {
+    height: 300px;
+    width: 420px;
+}
+
+/* IMAGE COMMENTS AND ICONS */
+
+.post-body {
+    height: 220px;
+    width: 420px;
+    margin-left: 250px;
+    background-color: white;
+}
+.post-icons {
+    padding: 15px 10px 5px 0px;
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    width: 420px;
+    justify-content: space-between; 
+}
+.first-icons {
+    display: flex;
+}
+.fa-regular.fa-heart.fa-xl {
+    padding: 5px;
+}
+.fa-regular.fa-comment.fa-xl {
+    padding: 5px;
+}
+.fa-regular.fa-paper-plane.fa-xl {
+    padding: 4px;
+}
+.paragraph-one {
+    padding: 5px;
+}
+.paragraph-two {
+   padding: 5px;
+}
+.paragraph-one span {
+    font-weight: bold;
+}
